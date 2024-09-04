@@ -1,2 +1,6 @@
-# Conway's Game Of Life Test
 # Game-Of-Life-Workshop
+
+All you need is:
+*vscode
+*Javascript
+*Word
