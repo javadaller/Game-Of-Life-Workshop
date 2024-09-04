@@ -1,0 +1,11 @@
+.button1 {
+    border:solid 1px var(--color3);
+    border-radius: 30px;
+    padding:5px 10px 5px 10px;
+    @extend .pointer;
+}
+.button1:hover {
+    transform: scale(110%);
+    color:var(--background);
+    background-color: var(--color3);
+}

@@ -1,0 +1,21 @@
+#displayCustom {
+    padding:3% 0% 3% 0%;
+    @include box(100%);
+    @include flex(column,center,center);
+
+    #customButtons {
+        @include flex(row,space-between,center);
+        margin-bottom: 10px;
+    }
+
+    #gridCustom {
+        //border:solid  var(--color3);
+        background-color: black;
+
+        display: grid;
+        grid-template-columns: repeat(20, 1fr);
+        grid-template-rows: repeat(20, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+}

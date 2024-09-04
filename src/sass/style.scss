@@ -1,0 +1,26 @@
+@import "base/_base_dir";
+@import "fnc/_fnc_dir";
+@import "design/_design_dir";
+@import "components/_components_dir";
+
+body {
+    font-family: Ubuntu;
+    height: 100dvh;
+    overflow: hidden;
+    color:var(--text);
+    background-color: var(--background);
+}
+
+header {
+    height: 10dvh;
+}
+main {
+    height: 85dvh;
+}
+footer {
+    height: 5dvh;
+}
+
+#displayRandom {
+    display: none;
+}

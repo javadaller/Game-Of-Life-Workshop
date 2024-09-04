@@ -1,0 +1,52 @@
+.cell {
+    border:solid 1px var(--grid);
+    @include box(20px);
+    @extend .pointer;
+}
+.cell[alive = "false"]:hover {
+    background-color: rgb(77, 71, 42);
+}
+
+.cell2 {
+    border:solid 1px var(--grid);
+    @include box(20px);
+    @extend .pointer;
+}
+.cell2[alive = "false"]:hover {
+    background-color: rgb(77, 71, 42);
+}
+
+.alive {
+    background-color: var(--color3);
+}
+
+.life10 {
+    background-color: #F9E784;
+}
+.life9 {
+    background-color: #ffa366;
+}
+.life8 {
+    background-color: #e46f44;
+}
+.life7 {
+    background-color: #dc484d;
+}
+.life6 {
+    background-color: #c668e3;
+}
+.life5 {
+    background-color: #6a4fcd;
+}
+.life4 {
+    background-color: #3854c5;
+}
+.life3 {
+    background-color: #2321a0;
+}
+.life2 {
+    background-color: #0a0682;
+}
+.life1 {
+    background-color: #000240;
+}

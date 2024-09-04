@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/svg+xml" href="assets/images/icons/code-s-slash-line.svg" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Game Of Life</title>
+  </head>
+
+  <body>
+    
+    <header>
+
+      <h1>Game Of Life</h1>
+
+      <nav>
+        <h3>Type:</h3>
+        <div id="customNav">> Custom</div>
+        <div id="advancedNav">> Advanced</div>
+      </nav>
+
+      <section id="customOptions">
+
+        <h3>Options</h3>
+
+        <div id="customOptionsInputs">
+
+          <div class="customOption">
+            <label for="speed">Speed: </label>
+            <input type="range" name="speed" id="customSpeedID" min="1" max="10" value="5" step>
+            <span id="customSpeedDisplay">x5</span>
+          </div>
+
+          <div class="customOption">
+            <label for="size">Size: </label>
+            <select type="range" name="size" id="customSizeID">
+              <option value="20x20">20x20</option>
+              <option value="30x30">30x30</option>
+              <option value="40x30">40x30</option>
+              <option value="80x60">80x60</option>
+              <option value="100x75">100x75</option>
+            </select>
+          </div>
+
+          <div class="customOption">
+            <label for="models">Models: </label>
+            <select name="models" id="customModelsID"></select>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="advancedOptions">
+
+        <h3>Options</h3>
+
+        <div id="advancedOptionsInputs">
+
+          <div class="advancedOption">
+            <label for="speed">Speed: </label>
+            <input type="range" name="speed" id="advancedSpeedID" min="1" max="10" value="5" step>
+            <span id="advancedSpeedDisplay">x5</span>
+          </div>
+
+          <div class="advancedOption">
+            <label for="size">Size: </label>
+            <select type="range" name="size" id="advancedSizeID">
+              <option value="20x20">20x20</option>
+              <option value="30x30">30x30</option>
+              <option value="40x30">40x30</option>
+              <option value="80x60">80x60</option>
+              <option value="100x75">100x75</option>
+            </select>
+          </div>
+
+          <!-- <div class="advancedOption">
+            <label for="models">Models: </label>
+            <select name="models" id="advancedModelsID"></select>
+          </div> -->
+
+        </div>
+
+        <div id="filters">
+          <h3>Filters</h3>
+
+          <div>
+            <label for="filterSize">Filter size: </label>
+            <select name="filterSize" id="filterSizeID">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3" selected>3</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="filterValues">Filter values: </label>
+            <div>
+              <input type="number" name="filter1" id="filter1ID" min="0" max="1" value="1" step="0.01">
+              <input type="number" name="filter2" id="filter2ID" min="0" max="1" value="1" step="0.01">
+              <input type="number" name="filter3" id="filter3ID" min="0" max="1" value="1" step="0.01">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </header>
+
+    <main>
+      <section id="displayCustom">
+        <div id="customButtons">
+          <div id="customStartStop" class="button1">Start</div>
+          <div id="customClear" class="button1">Clear</div>
+        </div>
+        
+        <div id="gridCustom"></div>
+      </section>
+
+      <section id="displayAdvanced">
+        <div id="advancedButtons">
+          <div id="advancedStartStop" class="button1">Start</div>
+          <div id="advancedClear" class="button1">Clear</div>
+        </div>
+        <div id="gridAdvanced"></div>
+      </section>
+
+    </main>
+
+    <footer>
+      <section id="socials">
+
+      </section>
+    </footer>
+
+  </body>
+
+  <script type="module" src="./assets/js/main.js"></script>
+
+</html>

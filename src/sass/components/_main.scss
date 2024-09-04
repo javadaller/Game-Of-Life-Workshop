@@ -1,0 +1,12 @@
+main {
+    width: 100%;
+    @include flex(column,center,center);
+
+    #displayCustom, #displayAdvanced {
+        margin-top: 15px;
+        
+        #customButtons {
+            width: 175px;
+        }
+    }
+}
