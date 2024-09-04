@@ -11,11 +11,18 @@ export async function customGameOfLife() {
     localStorage.setItem('customRunning', 'true')
 
     while (localStorage.getItem('customRunning') === 'true') {
-        
+        //! YOUR CODE ----->
+
+
+        //!----------------
         await sleep(delay)
     }
 }
 
+//! YOUR FUNCTIONS ----->
+
+        
+//!----------------
 
 
 //* OPTIONS
