@@ -1,7 +1,6 @@
 import { nav } from "./components/nav.js";
 import { customGrid } from "./components/customGrid.js";
 import { customOptions } from "./components/customGameOfLife.js";
-import { advancedOptions } from "./components/advancedGameOfLife.js";
 import { modelSelect } from "./components/models.js";
 //INIT
 localStorage.setItem('customRunning', 'false');
@@ -14,5 +13,5 @@ localStorage.setItem('advancedArray', JSON.stringify(advancedArray));
 nav();
 customGrid(20, 20);
 customOptions();
-advancedOptions();
+//advancedOptions()
 modelSelect();
