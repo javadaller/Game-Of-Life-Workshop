@@ -14,7 +14,7 @@ export async function customGameOfLife() {
         //! YOUR CODE ----->
 
 
-        //!----------------
+        //!----------------------------------------------------------------------------
         await sleep(delay)
     }
 }
@@ -22,7 +22,7 @@ export async function customGameOfLife() {
 //! YOUR FUNCTIONS ----->
 
         
-//!----------------
+//!------------------------------------------------------------------------------
 
 
 //* OPTIONS
