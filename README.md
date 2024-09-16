@@ -46,8 +46,10 @@ Le Jeu de la Vie se déroule sur une grille carrée où chaque cellule peut êtr
 
 ## 👥 Contributeurs
 
-- 🧔🏻‍♂️ [Arnaud] (https://github.com/javadaller)
-- 👦🏻 [Tasha] (https://github.com/NataliiaTasha)
+ [Arnaud] (https://github.com/javadaller)
+ [Tasha] (https://github.com/NataliiaTasha)
+
+🧔🏻‍♂️ 👦🏻 
 
 ## License
 
