@@ -42,7 +42,6 @@ Le Jeu de la Vie se déroule sur une grille carrée où chaque cellule peut êtr
 ## 🔗 Ressources
 
 - [Conway's Game of Life - Wikipédia](https://fr.wikipedia.org/wiki/Jeu_de_la_vie)
-- [Tutoriel Python pour le Jeu de la Vie](https://github.com/mon-exemple/python-game-of-life)
 
 ## 👥 Contributeurs
 
