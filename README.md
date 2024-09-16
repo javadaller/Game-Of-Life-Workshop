@@ -6,7 +6,8 @@ Le Jeu de la Vie de Conway est un automate cellulaire inventé par le mathémati
 
 ## 🎯 Objectif
 
-L'objectif de cet atelier est de vous apprendre à coder le Jeu de la Vie en utilisant un langage de programmation de votre choix. Vous allez découvrir comment des règles simples peuvent créer des comportements complexes — et vous pourrez même recréer une apocalypse de cellules ! 🧬⚡
+L'objectif de cet atelier est de vous apprendre à coder le Jeu de la Vie en utilisant le pseudo code, afin de pouvoir travailler tous ensemble sur l'algorithme, peu importe le language que vous souhaitez utiliser par la suite!
+Cependant, une interface en typescript est à votre dispoition pour vous faciliter la tâche 🧬⚡
 
 ## ✅ Prérequis
 
@@ -33,10 +34,10 @@ Le Jeu de la Vie se déroule sur une grille carrée où chaque cellule peut êtr
 
 ## 🚀 Étapes de l'atelier
 
-1. **Introduction à l'automate cellulaire** : Brève explication de ce qu'est un automate cellulaire et comment il fonctionne.
-2. **Mise en place de la grille** : Implémentation d'une grille 2D où chaque cellule peut être soit vivante, soit morte.
+1. **Introduction au pseudo code** : Brève explication du pseudo code.
+2. **Création de l'algorithme en groupe** : On va trouver des solutions, ou pas.
 3. **Implémentation des règles** : Codage des règles du jeu pour simuler l'évolution des cellules.
-4. **Affichage visuel** : Si possible, création d'une interface pour visualiser l'évolution des cellules sur la grille.
+4. **Affichage visuel** : Si possible, création d'une interface pour visualiser l'évolution des cellules sur la grille (interface déjà dispo en typescript).
 
 
 ## 🔗 Ressources
